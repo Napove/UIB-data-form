@@ -1,0 +1,66 @@
+
+*{
+    margin: 0 ;
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+
+#container{
+   border: 1px solid black; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.line{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size: xx-large;
+    grid-column: span 2;
+    }
+
+
+
+div.personal label {
+    font-weight: bold;
+    
+
+}
+
+legend {
+    font-weight: bold;
+    color: blue;
+    font-size: larger;
+}
+
+p {  
+    font-weight: bolder;
+}
+
+
+#start, #end, #box {
+   
+    height: 25px;
+}
+
+
+
+button {
+    border: none;
+    width: 160px;
+    height: 40px;
+    color: white;
+    margin-top: 15px;
+    background-color: rgb(80,194,19);
+    border-radius: 7px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+select{
+    width: 621px;
+}
