@@ -8,81 +8,78 @@
 </head>
 <body>
     <div id="container">
-    <h1 class="line">Forms</h1>
+        <h1 class="line">Forms</h1>
     
-    <form class="personal">
-        <fieldset>
-            <legend>Personal Data</legend>
-            <div class="personal">
-        
-                <label for="first-name">First name:</label><br>
-                <input type="text" id="box" name="user_first_name" size="75"/><br/><br/>
+        <form class="personal">
+            <fieldset>
+                <legend>Personal Data</legend>
+                <div class="personal">
+            
+                    <label for="first-name">First name:</label><br>
+                    <input type="text" id="box" name="user_first_name"><br/><br/>
 
-                <label for="last-name">Last name:</label><br/>
-                <input type="text" id="box" name="user_last_name" size="75"/><br/><br/>
+                    <label for="last-name">Last name:</label><br/>
+                    <input type="text" id="box" name="user_last_name"><br/><br/>
 
-                <label for="street">Street:</label><br/>
-                <input type="text" id="box" name="street" size="75"/><br/><br/>
+                    <label for="street">Street:</label><br/>
+                    <input type="text" id="box" name="street"><br/><br/>
 
-                <label for="zipcode">Zipcode:</label><br/>
-                <input type="text" id="box" name="zipcode" size="75"/><br/><br/>
+                    <label for="zipcode">Zipcode:</label><br/>
+                    <input type="text" id="box" name="zipcode"><br/><br/>
 
-                <label for="city">City:</label><br/>
-                <input type="text" id="box" name="city" size="75"/><br/><br/>
+                    <label for="city">City:</label><br/>
+                    <input type="text" id="box" name="city"><br/><br/>
 
-                <label for="phone">Phone:</label><br/>
-                <input type="text" id="box" name="phone" size="75"/><br/><br/>
+                    <label for="phone">Phone:</label><br/>
+                    <input type="text" id="box" name="phone"><br/><br/>
 
-                <label for="email">Email:</label><br/>
-                <input type="text" id="box" name="email" size="75"/><br/><br/>
+                    <label for="email">Email:</label><br/>
+                    <input type="text" id="box" name="email"><br/><br/>
 
-                <label for="msg">Comments:</label><br/>
-                <textarea name="user_message" id="msg" cols="76" rows="10" maxlength="100" placeholder="Tell us more about important colors, etc."></textarea>
-            </div>
-        </fieldset>
-    </form>
+                    <label for="msg">Comments:</label><br/>
+                    <textarea name="user_message" id="msg" maxlength="100" placeholder="Tell us more about important colors, etc."></textarea>
+                </div>
+            </fieldset>
+        </form>
     
 
-    <form class="products" action="/url">
-        <fieldset>
-            <legend>Products</legend>
-                <p>Web Desing</p><br/>
-                <input type="radio" id="individual" name="contact" value="design" checked/>
-                <label for="individual">Individual:</label>
-                
-                <input type="radio" id="template" name="contact" value="design"/>
-                <label for="template">Template</label><br/><br/>
+        <form class="products" action="/url">
+            <fieldset>
+                <legend>Products</legend>
+                    <p>Web Desing</p><br/>
+                    <input type="radio" id="individual" name="contact" value="design" checked/>
+                    <label for="individual">Individual:</label>
+                    
+                    <input type="radio" id="template" name="contact" value="design"/>
+                    <label for="template">Template</label><br/><br/>
 
-                <p>Web Development:</p><br/>
-                <input type="checkbox" id="html-css" name="html-css" value="web-development"/>
-                <label for="html-css">HTML & CSS</label><br/><br/>
+                    <p>Web Development:</p><br/>
+                    <input type="checkbox" id="html-css" name="html-css" value="web-development"/>
+                    <label for="html-css">HTML & CSS</label><br/><br/>
 
-                <input type="checkbox" id="JavaScript" name="JavaScript" value="web-development"/>
-                <label for="JavaScript">JavaScript</label><br/><br/>
+                    <input type="checkbox" id="JavaScript" name="JavaScript" value="web-development"/>
+                    <label for="JavaScript">JavaScript</label><br/><br/>
 
-                <input type="checkbox" id="mongodb" name="mongodb" value="web-development"/>
-                <label for="mongodb">MongoDB</label><br/><br/>
+                    <input type="checkbox" id="mongodb" name="mongodb" value="web-development"/>
+                    <label for="mongodb">MongoDB</label><br/><br/>
 
-                
-                <label for="date"><strong>Project Start:</strong></label><br/><br/>
-                <input type="text" id="start" name="start" size="75" placeholder="mm/dd/yyyy" maxlength="10"/><br/><br/>
+                    
+                    <label for="date"><strong>Project Start:</strong></label><br/><br/>
+                    <input type="text" id="start" name="start" placeholder="mm/dd/yyyy" maxlength="10"/><br/><br/>
 
-                <label for="date"><strong>Project End:</strong></label><br/><br/>
-                <input type="text" id="end" name="end" size="75" placeholder="mm/dd/yyyy" maxlength="10"/><br/><br/>
+                    <label for="date"><strong>Project End:</strong></label><br/><br/>
+                    <input type="text" id="end" name="end" placeholder="mm/dd/yyyy" maxlength="10"/><br/><br/>
 
-                <label for="city-select"><strong>Category:</strong></label><br/><br/>
-                <select name="type" id="type-select" >
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-           
-        </fieldset>
-        <button type="submit">Order our services</button>
-
-   </form>
-
-</fieldset>
-</div>
+                    <label for="city-select"><strong>Category:</strong></label><br/><br/>
+                    <select name="type" id="type-select" >
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+            
+            </fieldset>
+            <button type="submit">Order our services</button>
+        </form>
+    </div>
 </body>
 </html>

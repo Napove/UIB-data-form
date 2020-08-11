@@ -1,7 +1,6 @@
 
 *{
-    margin: 0 ;
-    padding: 11px;
+    
     box-sizing: border-box;
 }
 
@@ -19,6 +18,7 @@
     padding: 2px;
     font-size: xx-large;
     grid-column: span 2;
+    margin-top: 0;
     }
 
 
@@ -61,6 +61,21 @@ fieldset {
     padding: 10px;
 }
 
+
+/*
 select{
-    width: 621px;
+    width: 100%;
+}
+
+input:not([type=checkbox]):not([type=radio]){
+    width: 100%;
+}
+*/
+
+input[type=text], select, textarea{
+    width: 100%;
+    
+}
+textarea{
+    min-height: 80px;
 }
